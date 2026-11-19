@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clara-body {
+    background-image: url("https://i.pinimg.com/1200x/ff/27/bc/ff27bcb75f3379349fb43900da446593.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e293b;
+    padding: 28px 16px;
+}
+
+.clara-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.clara-card {
+    background-color: mintcream;
+    border: 2px solid mintcream;
+    border-radius: 0px;
+    padding: 18px;
+    box-shadow: 4px 4px 0px mintcream;
+}
+
+.clara-header {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 24px;
+}
+
+.clara-foto-link {
+    display: block;
+    flex-shrink: 0;
+}
+
+.clara-foto {
+    width: 170px;
+    height: 170px;
+    border-radius: 0px;
+    object-fit: cover;
+    border: 3px solid mintcream;
+    background-color: #ffffff;
+}
+
+.clara-header {
+    background-color: #f5c4ce;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 24px;
+}
+
+.clara-nama {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0f172a;
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+.clara-kelas {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1e3a5f;
+    border-bottom: 1.5px solid #1e293b;
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+.clara-bio {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.clara-tengah-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 18px;
+}
+
+.clara-kolom {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.clara-kolom .clara-card {
+    flex: 1;
+}
+
+.clara-card-merah {
+    border-color: pink;
+    box-shadow: 4px 4px 0px pink;
+}
+
+.clara-card-pink {
+    border-color: pink;
+    box-shadow: 4px 4px 0px pink;
+}
+
+.clara-card-green {
+    border-color: #8ab661;
+    box-shadow: 4px 4px 0px #8AB661;
+}
+
+.clara-judul-baris {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.clara-ikon-kotak {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.clara-judul-teks {
+    font-size: 15px;
+    font-weight: bold;
+    color: #0f172a;
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 3px;
+    flex: 1;
+}
+
+.clara-bg-pink {
+    background-color: pink;
+}
+
+.clara-bg-green {
+    background-color: #8AB661;
+}
+
+.clara-bg-green {
+    background-color: #8AB661;
+}
+
+.clara-bg-pink {
+    background-color:pink;
+}
+
+.clara-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clara-list-item {
+    font-size: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid #8f9eb4;
+}
+
+.clara-list-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.clara-tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.clara-tag {
+    border: 1.5px solid pink;
+    border-radius: 0px;
+    padding: 6px 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.clara-link-yt {
+    color: #1e3a5f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.clara-footer {
+    text-align: center;
+    font-size: 13px;
+    color:#1e3a5f ;
+    margin-top: 4px;
+}
+
+.clara-link-beranda {
+    color: #1e3a5f;
+    font-weight: bold;
+    text-decoration: none;
+}
